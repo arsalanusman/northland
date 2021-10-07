@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="27px" height="24px" viewBox="0 0 27 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M0 0L26.6667 0L26.6667 23.9997L0 23.9997L0 0Z" transform="translate(3.237298E-06 0)" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="icon_Alert2/Blue">
+    <g id="icon_Alert2/Blue">
+      <path d="M0 8.66667L2.66667 8.66667L2.66667 0L0 0L0 8.66667Z" transform="translate(12.00001 8)" id="Fill-1" fill="#0344DC" stroke="none" />
+      <g id="Group-7">
+        <path d="M1.33333 0C0.597334 0 0 0.596667 0 1.33333C0 2.06933 0.597334 2.66667 1.33333 2.66667C2.07 2.66667 2.66667 2.06933 2.66667 1.33333C2.66667 0.596667 2.07 0 1.33333 0" transform="translate(11.99941 18)" id="Fill-2" fill="#0344DC" stroke="none" />
+        <g id="Group-6">
+          <path d="M0 0L26.6667 0L26.6667 23.9997L0 23.9997L0 0Z" transform="translate(3.237298E-06 0)" id="Clip-5" fill="none" stroke="none" />
+          <g clip-path="url(#mask_1)">
+            <path d="M14.4955 0.68C14.2595 0.26 13.8148 0 13.3335 0C12.8515 0 12.4075 0.26 12.1715 0.68L0.171464 22.0133C-0.0612033 22.426 -0.0565366 22.9313 0.18213 23.34C0.421464 23.7493 0.859464 24 1.33346 24L12.0001 24L12.0001 21.3333L3.61347 21.3333L13.3335 4.05333L23.0535 21.3333L14.6668 21.3333L14.6668 24L25.3335 24C25.8075 24 26.2455 23.7493 26.4841 23.34C26.7235 22.9313 26.7281 22.426 26.4955 22.0133L14.4955 0.68Z" transform="translate(3.237298E-06 -0.0003333334)" id="Fill-4" fill="#0344DC" stroke="none" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

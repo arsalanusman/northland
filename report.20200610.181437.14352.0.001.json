@@ -1,0 +1,404 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200610.181437.14352.0.001.json",
+    "dumpEventTime": "2020-06-10T18:14:37Z",
+    "dumpEventTimeStamp": "1591794877687",
+    "processId": 14352,
+    "threadId": null,
+    "cwd": "D:\\projects\\BESTHIVE PAKISTAN\\Northland Zdegree\\nl_0001",
+    "commandLine": [
+      "node",
+      "D:\\projects\\BESTHIVE PAKISTAN\\Northland Zdegree\\nl_0001\\node_modules\\.bin\\\\..\\frontity\\dist\\src\\cli\\index.js",
+      "dev"
+    ],
+    "nodejsVersion": "v12.16.3",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.3",
+      "v8": "7.8.279.23-node.35",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.16.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1g",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.3/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz",
+        "speed": 2195,
+        "user": 135355406,
+        "nice": 0,
+        "sys": 70365453,
+        "idle": 533371906,
+        "irq": 8969671
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz",
+        "speed": 2195,
+        "user": 136048421,
+        "nice": 0,
+        "sys": 55502406,
+        "idle": 547541750,
+        "irq": 2092125
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz",
+        "speed": 2195,
+        "user": 150323250,
+        "nice": 0,
+        "sys": 57676500,
+        "idle": 531092843,
+        "irq": 1131390
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz",
+        "speed": 2195,
+        "user": 151980843,
+        "nice": 0,
+        "sys": 54933593,
+        "idle": 532178156,
+        "irq": 1085390
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi 2",
+        "internal": false,
+        "mac": "50:3e:aa:5a:92:2c",
+        "address": "fe80::2828:1edd:9183:9c91",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 18
+      },
+      {
+        "name": "Wi-Fi 2",
+        "internal": false,
+        "mac": "50:3e:aa:5a:92:2c",
+        "address": "192.168.0.26",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "bh-27"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6379b2449",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+11577"
+    },
+    {
+      "pc": "0x00007ff6379b69a9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+29337"
+    },
+    {
+      "pc": "0x00007ff6379b5828",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24856"
+    },
+    {
+      "pc": "0x00007ff637aed8c2",
+      "symbol": "v8::base::CPU::has_sse+68658"
+    },
+    {
+      "pc": "0x00007ff638309bbe",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff6382f1c91",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff6381be1ec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff6381c9420",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff6381c5f44",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff6381bb743",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff6381b9db4",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff6381dafbd",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff637f41871",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff638756c4d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x00007ff638703457",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+204631"
+    },
+    {
+      "pc": "0x00007ff638718ae4",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+292324"
+    },
+    {
+      "pc": "0x00007ff6386d5b22",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+17954"
+    },
+    {
+      "pc": "0x000001dadaafe791",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2155941888,
+    "totalCommittedMemory": 2155941888,
+    "usedMemory": 2140265688,
+    "availableMemory": 50418320,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 8388608,
+        "committedMemory": 8388608,
+        "capacity": 4189824,
+        "used": 209232,
+        "available": 3980592
+      },
+      "old_space": {
+        "memorySize": 325988352,
+        "committedMemory": 325988352,
+        "capacity": 320963408,
+        "used": 320588912,
+        "available": 374496
+      },
+      "code_space": {
+        "memorySize": 8294400,
+        "committedMemory": 8294400,
+        "capacity": 7275840,
+        "used": 7275840,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 4460544,
+        "committedMemory": 4460544,
+        "capacity": 4121600,
+        "used": 4121600,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 1805918208,
+        "committedMemory": 1805918208,
+        "capacity": 1805593712,
+        "used": 1805593712,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 2629632,
+        "committedMemory": 2629632,
+        "capacity": 2443584,
+        "used": 2443584,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 4189824,
+        "used": 0,
+        "available": 4189824
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 286.218,
+    "kernelCpuSeconds": 21.093,
+    "cpuConsumptionPercent": 2.29868,
+    "maxRss": 962781184,
+    "pageFaults": {
+      "IORequired": 3784353,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 5810,
+      "writes": 837
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "=D:": "D:\\projects\\BESTHIVE PAKISTAN\\Northland Zdegree\\nl_0001",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\amin.bh-27\\AppData\\Roaming",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "COLORTERM": "truecolor",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "BH-27",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CWD": "D:\\projects\\BESTHIVE PAKISTAN\\Northland Zdegree\\nl_0001",
+    "dp0": "D:\\projects\\BESTHIVE PAKISTAN\\Northland Zdegree\\nl_0001\\node_modules\\.bin\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git\\bin",
+    "FP_NO_HOST_CHECK": "NO",
+    "GIT_ASKPASS": "c:\\Program Files\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "HOME": "C:\\Users\\amin.bh-27",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\amin.bh-27",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\amin.bh-27\\AppData\\Local",
+    "LOGONSERVER": "\\\\BH-27",
+    "MSYSTEM": "MINGW64",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\amin.bh-27\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\amin.bh-27\\OneDrive",
+    "OS": "Windows_NT",
+    "PATH": "D:\\projects\\BESTHIVE PAKISTAN\\Northland Zdegree\\nl_0001\\node_modules\\.bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\amin.bh-27\\bin;C:\\Program Files\\Dell\\DW WLAN Card;C:\\WINDOWS\\SYSTEM32;C:\\WINDOWS;C:\\WINDOWS\\SYSTEM32\\WBEM;C:\\WINDOWS\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0;C:\\Program Files\\WIDCOMM\\Bluetooth Software;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files\\Theme Kit;D:\\wamp\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Yarn\\bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\nodejs;C:\\Users\\amin.bh-27\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\amin.bh-27\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\amin.bh-27\\AppData\\Local\\Yarn\\bin;C:\\Users\\amin.bh-27\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 61 Stepping 4, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3d04",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "D:/projects/BESTHIVE PAKISTAN/Northland Zdegree/nl_0001",
+    "SESSIONNAME": "Console",
+    "SHLVL": "2",
+    "SynaProgDir": "Synaptics\\SynTP",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\AMIN~1.BH-\\AppData\\Local\\Temp",
+    "TERM": "cygwin",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.45.1",
+    "TMP": "C:\\Users\\AMIN~1.BH-\\AppData\\Local\\Temp",
+    "USERDOMAIN": "bh-27",
+    "USERDOMAIN_ROAMINGPROFILE": "bh-27",
+    "USERNAME": "amin",
+    "USERPROFILE": "C:\\Users\\amin.bh-27",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Program Files\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-0ea5064257-sock",
+    "WINDIR": "C:\\WINDOWS",
+    "windows_tracing_flags": "3",
+    "windows_tracing_logfile": "C:\\BVTBin\\Tests\\installpackage\\csilogfile.log",
+    "_": "C:/Program Files/nodejs/node.exe",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+  ]
+}

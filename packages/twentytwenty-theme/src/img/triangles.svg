@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1600px" height="1040px" viewBox="0 0 1600 1040" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="triangles" transform="translate(-37 0)" opacity="0.4">
+    <g id="motif/White" transform="translate(0 550)" opacity="0.3">
+      <path d="M203.978 0L101.988 182.817L0 365.635L203.978 365.635L407.954 365.635L305.968 182.817L203.978 0Z" id="Fill-1" fill="#FFFFFF" stroke="none" />
+    </g>
+    <g id="motif/White" transform="translate(418 330)" opacity="0.3">
+      <path d="M156.599 0L78.299 139.479L0 278.959L156.599 278.959L313.197 278.959L234.899 139.479L156.599 0Z" id="Fill-1" fill="#FFFFFF" stroke="none" />
+    </g>
+    <g id="motif/White" transform="translate(755 719)" opacity="0.2">
+      <path d="M208.466 0L104.232 186.304L0 372.609L208.466 372.609L416.931 372.609L312.7 186.304L208.466 0Z" id="Fill-1" fill="#FFFFFF" stroke="none" />
+    </g>
+    <g id="motif/White" transform="translate(1360 553)" opacity="0.3">
+      <path d="M156.599 0L78.299 139.479L0 278.959L156.599 278.959L313.197 278.959L234.899 139.479L156.599 0Z" id="Fill-1" fill="#FFFFFF" stroke="none" />
+    </g>
+    <g id="motif/White" transform="translate(1310 41)" opacity="0.3">
+      <path d="M114.208 0L57.1034 102.118L0 204.238L114.208 204.238L228.415 204.238L171.312 102.118L114.208 0Z" id="Fill-1" fill="#FFFFFF" stroke="none" />
+    </g>
+    <g id="motif/White" transform="translate(992 270)" opacity="0.2">
+      <path d="M134.655 0L67.3272 120.549L0 241.1L134.655 241.1L269.31 241.1L201.984 120.549L134.655 0Z" id="Fill-1" fill="#FFFFFF" stroke="none" />
+    </g>
+    <g id="motif/White" transform="translate(9 195)" opacity="0.2">
+      <path d="M99.7447 0L49.872 88.6686L0 177.338L99.7447 177.338L199.489 177.338L149.617 88.6686L99.7447 0Z" id="Fill-1" fill="#FFFFFF" stroke="none" />
+    </g>
+    <g id="motif/White" transform="translate(462 0)" opacity="0.4">
+      <path d="M74.3098 0L37.1546 66.7505L0 133.502L74.3098 133.502L148.619 133.502L111.465 66.7505L74.3098 0Z" id="Fill-1" fill="#FFFFFF" stroke="none" />
+    </g>
+  </g>
+</svg>
